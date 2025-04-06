@@ -23,7 +23,7 @@
 ### docker run -d --name redis-stack-server -p 6379:6379 redis/redis-stack-server:latest
 ### '-d' flag means 'debug mode', so you can omit it for whatever reason you will have. And '--name' flag indicates
 ### that after this flask we set the name of this container as 'redis-stack-server', so you can change the name if you want.
-# '-p' flag means port forwarding, where first number'6379' before colon ':' is the port on your local machine and
+### '-p' flag means port forwarding, where first number'6379' before colon ':' is the port on your local machine and
 ### the following '6379' means port in the container. After that we use image 'redis/redis-stack-server:latest' for this
 ### container.
 
