@@ -1,0 +1,25 @@
+services:
+  app:
+    pull_policy: never
+    container_name: app
+    build: .
+    command: flask run --host=0.0.0.0
+    ports:
+      - 8000:5000
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+  celery:
+    pull_policy: never
+    container_name: celery
+    build: .
+    command: celery -A make_celery worker --loglevel INFO
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:alpine

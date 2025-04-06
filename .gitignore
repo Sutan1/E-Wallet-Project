@@ -1,0 +1,4 @@
+.newwallet
+__pycache__
+instance
+my_test_wallet_db.db
