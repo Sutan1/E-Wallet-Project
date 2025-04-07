@@ -1,5 +1,6 @@
 '''
 ## This is a README file for this E-Wallet web backend project written in python utilizing Flask framework.
+
 ##### In this project you can find: 
 ##### - main Flask app;
 ##### - celery wotker;
@@ -42,7 +43,8 @@
 ##### your constructive critique and suggestions.
 
 
-#### Thank you for taking the time to review this project.
 
-#### Kind regards,
+##### Thank you for taking the time to review this project.
+
+##### Kind regards,
 '''
