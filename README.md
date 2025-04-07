@@ -38,11 +38,11 @@
 
 ##### _________________________
 
-##### Just want to add that I am aspiring deeloper and the code can definitely be imperfect so I will be more than happy for
+##### Just want to add that I am aspiring developer and the code can definitely be imperfect so I will be more than happy for
 ##### your constructive critique and suggestions.
 
 
-##### Thank you for taking the time to review this project.
+#### Thank you for taking the time to review this project.
 
-##### Kind regards,
+#### Kind regards,
 '''
