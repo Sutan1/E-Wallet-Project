@@ -12,12 +12,13 @@
 #### - Docker compose file to run docker "claster" container embedding Flask main app, celery worker and redis.
 #### You can pull this project and run it locally either it be with docker compose or without. You may want to set up
 #### your local environment for local testing, all requirements included.
-#### ____________________________
+
+#### _________________
 
 #### In case you want to run everyhing in the container "cd" to the "docker-compose" file directpry and execute:
 #### "docker compose up"
 
-#### ____________________________
+#### _________________
 
 #### In case you want to run it locally without the docker compose pelase use the following instructions:
 #### 1) So first let"s run our main app from the current directory:
@@ -35,6 +36,7 @@
 #### 3) As soon as the redis container and main app are running we can start up our celery worker:
 #### "celery -A make_celery worker --loglevel INFO"
 
+#### _________________
 
 #### Just want to add that I am aspiring deeloper and the code can definitely be imperfect so I will be more than happy for
 #### your constructive critique and suggestions.
