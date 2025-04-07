@@ -5,7 +5,7 @@
 #### - celery wotker;
 #### - small logging configurations;
 #### - utilization of SQLAlchemy and default SQLite database with unique constraint for "Transaction" table and Enum objects;
-#### - JWT tokens; 
+#### - JWT tokens for authentication; 
 #### - Schema for deserialization and serialization with modified Decimal field;
 #### - Blueprints for managing routes/views;
 #### - Short line for redis serving as a message broker for celery worker;
