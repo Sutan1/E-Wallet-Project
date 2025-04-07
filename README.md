@@ -1,7 +1,7 @@
 '''
 ## This is a README file for this E-Wallet web backend project written in python utilizing Flask framework.
 #### In this project you can find: 
-#### - main Flaks app;
+#### - main Flask app;
 #### - celery wotker;
 #### - small logging configurations;
 #### - utilization of SQLAlchemy and default SQLite database with unique constraint for "Transaction" table and Enum objects;
