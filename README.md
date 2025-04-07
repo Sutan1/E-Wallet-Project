@@ -21,7 +21,7 @@
 
 ##### _________________________
 
-##### In case you want to run it locally without the docker compose pelase use the following instructions:
+##### In case you want to run it locally without the docker compose please use the following instructions:
 ##### 1) So first let"s run our main app from the current directory:
 ##### "flask run" or "flask --app app run".
 ##### If you want to run it in debug mode execute add "--debug" at the end of either line.
